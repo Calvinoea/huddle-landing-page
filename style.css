@@ -1,3 +1,7 @@
+body {
+    position: absolute;
+}
+
 footer {
     background: #00252E;
     color: #ffff;
