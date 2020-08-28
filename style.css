@@ -2,6 +2,14 @@ body {
     position: absolute;
 }
 
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
 footer {
     background: #00252E;
     color: #ffff;
@@ -33,7 +41,30 @@ button:hover {
     cursor: pointer;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    li {
+        list-style: none;
+        padding: 0 5px;
+        font-size: 90%;
+    }
+    .introductary-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .introductary-section button {
+        width: 20%;
+    }
+    .introductary-section p {
+        width: 45%;
+        text-align: center;
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 768px) {}
 
