@@ -177,14 +177,16 @@ button:hover {
         flex-direction: column;
     }
     .subscribe input {
-        width: 112vw;
+        width: 146vw;
         height: 9vh;
+        border-radius: 5px;
     }
     .subscribe button {
         width: 50vw;
         height: 20vw;
         margin-top: 3%;
         font-size: 9vw;
+        margin-left: 41%;
     }
     .logo-text {
         margin-top: 9%;
