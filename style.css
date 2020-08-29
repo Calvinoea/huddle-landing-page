@@ -194,6 +194,13 @@ button:hover {
         margin-bottom: 0;
         margin-left: 13%;
     }
+    ul {
+        font-size: 14vw;
+        margin-left: 9%;
+    }
+    ul li {
+        padding: 13px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {}
