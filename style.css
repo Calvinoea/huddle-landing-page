@@ -11,8 +11,8 @@ li {
 }
 
 footer {
-    background: #00252E;
     color: #ffff;
+    width: 100%;
 }
 
 nav {
@@ -113,6 +113,7 @@ button:hover {
     }
     .bottom-text {
         text-align: center;
+        margin-bottom: 10%;
     }
     .bottom-text h3 {
         font-size: 17vw;
