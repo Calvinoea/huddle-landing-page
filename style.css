@@ -23,6 +23,20 @@ footer {
     width: 100%;
 }
 
+footer img {
+    width: 100%;
+    margin-bottom: -5%;
+}
+
+.footer-logo {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+.fill-footer {
+    background: #00252E;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
