@@ -41,6 +41,10 @@ button:hover {
     cursor: pointer;
 }
 
+.fill-background {
+    background: #F6FBFF;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px) {
     li {
         list-style: none;
@@ -84,7 +88,6 @@ button:hover {
     }
     .middle-section img {
         width: 100%;
-        margin-top: 5%;
     }
     .bottom-section img {
         width: 100%;
