@@ -171,6 +171,26 @@ button:hover {
     .community-data img {
         width: 53vw;
     }
+    .subscribe,
+    footer h3,
+    p {
+        margin-left: 14%;
+        font-size: 12vw;
+    }
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+    .subscribe input {
+        width: 112vw;
+        height: 9vh;
+    }
+    .subscribe button {
+        width: 50vw;
+        height: 20vw;
+        margin-top: 3%;
+        font-size: 9vw;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {}
