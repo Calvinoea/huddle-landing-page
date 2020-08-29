@@ -26,7 +26,7 @@ nav button {
     border: 2px solid hsl(322, 100%, 66%);
     border-radius: 20px;
     height: 10vh;
-    width: 10%;
+    width: 22%;
 }
 
 button {
@@ -56,6 +56,15 @@ button:hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    nav button {
+        border-radius: 31px;
+        font-size: 23px;
+        margin-top: 5%;
+    }
+    nav img {
+        margin-left: 5%;
+        margin-top: 5%;
     }
     main {
         display: flex;
