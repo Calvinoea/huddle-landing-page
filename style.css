@@ -10,6 +10,14 @@ li {
     list-style: none;
 }
 
+.second-section {
+    margin-top: 25%;
+}
+
+.bottom-section {
+    margin-top: 25%;
+}
+
 footer {
     color: #ffff;
     width: 100%;
