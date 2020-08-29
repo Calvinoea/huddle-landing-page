@@ -1,67 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/dcc95333f3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
+
+<header>
+    <nav>
+
+        <img src="images/logo.svg">
+
+        <button>Try it for Free</button>
+
+    </nav>
+</header>
+
 <body>
-  Try it free
 
-  Build The Community Your Fans Will Love
+    <main>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+        <div class="introductary-section">
+            <h1>Build The Community Your Fans Will Love</h1>
 
-  Get Started For Free
+            <p>
+                Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+            </p>
 
-  1.4k+
-  Communities Formed
+            <button>Get Started for Free</button>
+        </div>
 
-  2.7m+
-  Messages Sent
+        <img id="screen_mockup" src="images/screen-mockups.svg">
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+        <div class="community-data ">
 
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
+            <div>
+                <img src="images/icon-communities.svg">
+                <h2>1.4k+ Communities Formed
+                </h2>
+            </div>
 
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
+            <div>
+                <img src="images/icon-messages.svg">
+                <h2>2.7m+ Messages Sent
+                </h2>
+            </div>
+        </div>
 
-  Ready To Build Your Community?
-  Get Started For Free
+        <div class="middle-section">
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
+            <img src="images/bg-section-top-mobile-1.svg">
+            <div class="fill-background">
 
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
+                <img src="images/illustration-grow-together.svg">
+                <h2>Grow Together</h2>
+                <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
 
-  Subscribe
+            </div>
+            <img src="images/bg-section-bottom-mobile-1.svg">
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        </div>
+
+        <div class="second-section">
+            <img src="images/illustration-flowing-conversation.svg">
+            <div class="bottom-text">
+                <h2>Flowing Conversations</h2>
+                <P>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</P>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <img src="images/bg-section-top-mobile-2.svg">
+            <div class="fill-background">
+                <img src="images/illustration-your-users.svg">
+            </div>
+
+            <img src="images/bg-section-bottom-mobile-2.svg">
+        </div>
+
+
+        <div class="bottom-text">
+
+            <h3>Ready to Build Your Community?</h3>
+            <button>Get Started For Free</button>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <img src="images/bg-footer-top-mobile.svg">
+
+
+
+        <div class="fill-footer">
+
+            <h3>Newsletter</h3>
+            <p>Newsletter To recieve tips on how to grow your community, sign up to our weekly newsletter.</p>
+            <div class="subscribe">
+                <input></input>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="logo-text">
+                <img class='footer-logo' src="images/logo_footer.svg">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+
+
+
+            <p><span><i class="fas fa-phone-volume"></i>&nbsp;&nbsp;Phone: +1-543-123-4567
+                </p>
+              </span>
+
+                <p><span><i class="fas fa-envelope-square"></i>&nbsp;&nbsp;</span>example@huddle.com</p>
+
+
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li><i class="fab fa-instagram-square"></i></li>
+                    <li><i class="fab fa-twitter-square"></i></li>
+                </ul>
+
+
+
+
+
+
+
+        </div>
+
+    </footer>
 </body>
+
 </html>
