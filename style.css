@@ -25,7 +25,7 @@ nav button {
     color: hsl(322, 100%, 66%);
     border: 2px solid hsl(322, 100%, 66%);
     border-radius: 20px;
-    height: 30px;
+    height: 10vh;
     width: 10%;
 }
 
@@ -83,8 +83,11 @@ button:hover {
         font-size: 30vw;
     }
     .middle-section img {
-        width: 60%;
+        width: 100%;
         margin-top: 5%;
+    }
+    .bottom-section img {
+        width: 100%;
     }
     #screen_mockup {
         margin-top: 15%;
