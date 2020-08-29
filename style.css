@@ -61,6 +61,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: auto;
     }
     .introductary-section button {
         width: 20%;
@@ -100,11 +101,15 @@ button:hover {
         text-align: center;
     }
     .bottom-text h3 {
-        font-size: 21vw;
+        font-size: 17vw;
+        width: 99%;
     }
     .bottom-text button {
         height: 14vh;
         width: 98vw;
+        border-radius: 67px;
+        font-size: 28px;
+        font-weight: bold;
     }
     #screen_mockup {
         margin-top: 15%;
