@@ -66,7 +66,7 @@ button:hover {
     }
     .introductary-section h1,
     h2 {
-        font-size: 14vw;
+        font-size: 21vw;
         margin-top: 14%;
     }
     .introductary-section p {
@@ -91,6 +91,16 @@ button:hover {
     }
     .bottom-section img {
         width: 100%;
+    }
+    .bottom-text {
+        text-align: center;
+    }
+    .bottom-text h3 {
+        font-size: 21vw;
+    }
+    .bottom-text button {
+        height: 14vh;
+        width: 98vw;
     }
     #screen_mockup {
         margin-top: 15%;
