@@ -65,6 +65,11 @@ button:hover {
     }
     .introductary-section button {
         width: 20%;
+        border-radius: 67px;
+        font-size: 28px;
+        font-weight: bold;
+        width: 98vw;
+        height: 13vh;
     }
     .introductary-section h1,
     h2 {
